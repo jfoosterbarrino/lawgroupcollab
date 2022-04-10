@@ -22,8 +22,6 @@ main{
 }
 nav li{
     display:inline-flex;
-    margin-left:20px;
-    margin-right:20px;
     padding-top:10px;
     padding-bottom:10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -31,7 +29,8 @@ nav li{
 nav ul{
     border-bottom: 3px solid black;
     border-top: 3px solid black;
-    text-align:center;
+    display:flex;
+    justify-content:space-around;
 }
 nav a{
     color: black;
